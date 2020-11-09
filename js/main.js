@@ -21,7 +21,7 @@ var student = {
 //secondo esercizio
 //arrey di oggetti
 
-var student = [
+var students = [
 {
   "nome" : "Francesco",
   "cognome": "Totti",
@@ -49,7 +49,7 @@ var student = [
 ];
 
 //ciclo for + stampa per ognuno nome e cognome
-for( var i = 0; i < student.lenght; i++){
+for( var i = 0; i < students.lenght; i++){
 
   console.log( "nome studente: " + student[i].nome);
   console.log( "cognome studente: " + student[i].cognome);
@@ -65,4 +65,7 @@ for( var i = 0; i < student.lenght; i++){
  //aggiungere 3 promp e uso push per farinserire  nome cognome ed età
  newStudent.nome =prompt("nome dello studente: ");
  newStudent.cognome =prompt("cognome dello studente: ");
- newStudent.età = parseInt(prompt("nome dello studente: ")); 
+ newStudent.età = parseInt(prompt("nome dello studente: "));
+
+students.push(newStudent);
+console.log(students);
