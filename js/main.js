@@ -49,7 +49,7 @@ var students = [
 ];
 
 //ciclo for + stampa per ognuno nome e cognome
-for( var i = 0; i < students.lenght; i++){
+for( var i = 0; i < students.length; i++){
 
   console.log( "nome studente: " + student[i].nome);
   console.log( "cognome studente: " + student[i].cognome);
